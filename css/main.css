@@ -421,6 +421,9 @@ p.numero{
   margin: 0px 0px 10px 0px;
   font-family: 'Oswald', sans-serif;
 }
+#eventos{
+  text-align: center;
+}
 /**LISTA DE PRECIOS***********************/
 ul.lista-precios>li{
   padding: 10px;
