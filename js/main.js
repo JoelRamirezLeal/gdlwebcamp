@@ -1,3 +1,19 @@
+var googleapi='AIzaSyCxugv02NHziclkyTUsl8WDa5-zeCywBpY';
+
+
+function initMap() {
+    var uluru = {lat: 7.899717, lng: -72.48750004};
+    var map = new google.maps.Map(document.getElementById('mapa'), {
+      zoom: 16,
+      center: uluru
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+  }
+
+
 (function () {
     "use strict";
     var regalo = document.getElementById('regalo');
