@@ -288,6 +288,42 @@
                 <!--.caja-->
             </div>
             <!--#eventos-->
+            <div id="resumen" class="resumen">
+                <h3>Pago y extras</h3>
+                <div class="caja clearfix">
+                    <div class="extras">
+                        <div class="orden">
+                            <label for="camisa_evento">Camisa del evento $10 <small>(promoción 7% dcto.)</small></label>
+                            <input type="number" min="0" id="camisa_evento" size="3" placeholder="0">
+                        </div><!--ORDEN-->
+                        <div class="orden">
+                            <label for="etiquetas">Paquete de diez etiquetas $2 <small>(HTML5, CSS3, JS)</small></label>
+                            <input type="number" min="0" id="etiquetas" size="3" placeholder="0">
+                        </div><!--ORDEN-->
+                        <div class="orden">
+                            <label for="regalo">Seleccione un regalo</label>
+                            <select name="" id="regalo" required>
+                                <option value="">Seleccione un regalo</option>
+                                <option value="ETI">Etiqueta</option>
+                                <option value="PUL">Pulsera</option>
+                                <option value="PLU">Pluma</option>
+                            </select>
+                        </div><!--ORDEN-->
+                        <input type="button" id="calcular" class="button" value="Calcular">
+                    </div><!--EXTRAS-->
+                    <div class="total">
+                        <p>Resumen</p>
+                        <div id="listaProductos">
+
+                        </div>
+                        <p>Total</p>
+                        <div id="suma_total">
+
+                        </div>
+                        <input type="submit" id="btnRegistro" class="button" value="Pagar">
+                    </div><!--EXTRAS-->
+                </div><!--CAJA-->
+            </div><!--RESUMEN-->
         </form>
     </section>
 
